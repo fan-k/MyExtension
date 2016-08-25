@@ -7,6 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CommonCrypto/CommonDigest.h>
+#import <sys/sysctl.h>
+#import <sys/socket.h>
+#import <net/if.h>
+#import <net/if_dl.h>
+#import "FanDefine.h"
+#import "NSData+FanExtension.h"
 
 @interface NSString (FanExtension)
 
